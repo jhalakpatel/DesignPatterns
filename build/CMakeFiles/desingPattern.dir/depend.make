@@ -109,6 +109,33 @@ CMakeFiles/desingPattern.dir/src/Decorator.cpp.o: ../include/spdlog/version.h
 CMakeFiles/desingPattern.dir/src/Decorator.cpp.o: ../src/Decorator.cpp
 CMakeFiles/desingPattern.dir/src/Decorator.cpp.o: ../src/Decorator.h
 
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/common.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/common.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/details/console_globals.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/details/fmt_helper.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/details/log_msg.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/details/logger_impl.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/details/null_mutex.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/details/os.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/details/pattern_formatter.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/details/periodic_worker.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/details/registry.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/fmt/bundled/core.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/fmt/bundled/format-inl.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/fmt/bundled/format.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/fmt/fmt.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/formatter.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/logger.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/sinks/ansicolor_sink.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/sinks/sink.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/sinks/stdout_color_sinks.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/sinks/wincolor_sink.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/spdlog.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/tweakme.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../include/spdlog/version.h
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../src/Facade.cpp
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../src/Facade.h
+
 CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o: ../include/common.h
 CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o: ../include/spdlog/common.h
 CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o: ../include/spdlog/details/console_globals.h

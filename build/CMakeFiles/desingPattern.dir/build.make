@@ -153,9 +153,33 @@ CMakeFiles/desingPattern.dir/src/Decorator.cpp.o.provides: CMakeFiles/desingPatt
 CMakeFiles/desingPattern.dir/src/Decorator.cpp.o.provides.build: CMakeFiles/desingPattern.dir/src/Decorator.cpp.o
 
 
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: CMakeFiles/desingPattern.dir/flags.make
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o: ../src/Facade.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/desingPattern.dir/src/Facade.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Facade.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/Facade.cpp
+
+CMakeFiles/desingPattern.dir/src/Facade.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/desingPattern.dir/src/Facade.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPatterns/src/Facade.cpp > CMakeFiles/desingPattern.dir/src/Facade.cpp.i
+
+CMakeFiles/desingPattern.dir/src/Facade.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/desingPattern.dir/src/Facade.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPatterns/src/Facade.cpp -o CMakeFiles/desingPattern.dir/src/Facade.cpp.s
+
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o.requires:
+
+.PHONY : CMakeFiles/desingPattern.dir/src/Facade.cpp.o.requires
+
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o.provides: CMakeFiles/desingPattern.dir/src/Facade.cpp.o.requires
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Facade.cpp.o.provides.build
+.PHONY : CMakeFiles/desingPattern.dir/src/Facade.cpp.o.provides
+
+CMakeFiles/desingPattern.dir/src/Facade.cpp.o.provides.build: CMakeFiles/desingPattern.dir/src/Facade.cpp.o
+
+
 CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o: CMakeFiles/desingPattern.dir/flags.make
 CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o: ../src/FactoryMethod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/FactoryMethod.cpp
 
 CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/desingPattern.dir/src/Observer.cpp.o: CMakeFiles/desingPattern.dir/flags.make
 CMakeFiles/desingPattern.dir/src/Observer.cpp.o: ../src/Observer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/desingPattern.dir/src/Observer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/desingPattern.dir/src/Observer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Observer.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/Observer.cpp
 
 CMakeFiles/desingPattern.dir/src/Observer.cpp.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/desingPattern.dir/src/Observer.cpp.o.provides.build: CMakeFiles/desin
 
 CMakeFiles/desingPattern.dir/src/Singleton.cpp.o: CMakeFiles/desingPattern.dir/flags.make
 CMakeFiles/desingPattern.dir/src/Singleton.cpp.o: ../src/Singleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/desingPattern.dir/src/Singleton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/desingPattern.dir/src/Singleton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Singleton.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/Singleton.cpp
 
 CMakeFiles/desingPattern.dir/src/Singleton.cpp.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/desingPattern.dir/src/Singleton.cpp.o.provides.build: CMakeFiles/desi
 
 CMakeFiles/desingPattern.dir/src/Strategy.cpp.o: CMakeFiles/desingPattern.dir/flags.make
 CMakeFiles/desingPattern.dir/src/Strategy.cpp.o: ../src/Strategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/desingPattern.dir/src/Strategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/desingPattern.dir/src/Strategy.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Strategy.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/Strategy.cpp
 
 CMakeFiles/desingPattern.dir/src/Strategy.cpp.i: cmake_force
@@ -255,6 +279,7 @@ desingPattern_OBJECTS = \
 "CMakeFiles/desingPattern.dir/src/Adapter.cpp.o" \
 "CMakeFiles/desingPattern.dir/src/Command.cpp.o" \
 "CMakeFiles/desingPattern.dir/src/Decorator.cpp.o" \
+"CMakeFiles/desingPattern.dir/src/Facade.cpp.o" \
 "CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o" \
 "CMakeFiles/desingPattern.dir/src/Observer.cpp.o" \
 "CMakeFiles/desingPattern.dir/src/Singleton.cpp.o" \
@@ -267,13 +292,14 @@ desingPattern_EXTERNAL_OBJECTS =
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/Adapter.cpp.o
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/Command.cpp.o
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/Decorator.cpp.o
+../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/Facade.cpp.o
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/Observer.cpp.o
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/Singleton.cpp.o
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/Strategy.cpp.o
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/build.make
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library ../lib/libdesingPattern.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library ../lib/libdesingPattern.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/desingPattern.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -285,6 +311,7 @@ CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/Abstract
 CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/Adapter.cpp.o.requires
 CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/Command.cpp.o.requires
 CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/Decorator.cpp.o.requires
+CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/Facade.cpp.o.requires
 CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o.requires
 CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/Observer.cpp.o.requires
 CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/Singleton.cpp.o.requires

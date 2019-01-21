@@ -698,6 +698,10 @@ common.h
 common.h
 /home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
+/home/jhalakp/dev/programming/DesignPatterns/src/Facade.h
+common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
+
 /home/jhalakp/dev/programming/DesignPatterns/src/FactoryMethod.h
 common.h
 /home/jhalakp/dev/programming/DesignPatterns/src/common.h
@@ -735,6 +739,12 @@ testRunner.h
 /home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 ../src/Decorator.h
 /home/jhalakp/dev/programming/DesignPatterns/src/Decorator.h
+
+/home/jhalakp/dev/programming/DesignPatterns/tests/testFacade.cpp
+testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
+../src/Facade.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Facade.h
 
 /home/jhalakp/dev/programming/DesignPatterns/tests/testFactoryMethod.cpp
 testRunner.h

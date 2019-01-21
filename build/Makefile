@@ -353,6 +353,33 @@ src/Decorator.cpp.s:
 	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Decorator.cpp.s
 .PHONY : src/Decorator.cpp.s
 
+src/Facade.o: src/Facade.cpp.o
+
+.PHONY : src/Facade.o
+
+# target to build an object file
+src/Facade.cpp.o:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Facade.cpp.o
+.PHONY : src/Facade.cpp.o
+
+src/Facade.i: src/Facade.cpp.i
+
+.PHONY : src/Facade.i
+
+# target to preprocess a source file
+src/Facade.cpp.i:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Facade.cpp.i
+.PHONY : src/Facade.cpp.i
+
+src/Facade.s: src/Facade.cpp.s
+
+.PHONY : src/Facade.s
+
+# target to generate assembly for a file
+src/Facade.cpp.s:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Facade.cpp.s
+.PHONY : src/Facade.cpp.s
+
 src/FactoryMethod.o: src/FactoryMethod.cpp.o
 
 .PHONY : src/FactoryMethod.o
@@ -569,6 +596,33 @@ tests/testDecorator.cpp.s:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testDecorator.cpp.s
 .PHONY : tests/testDecorator.cpp.s
 
+tests/testFacade.o: tests/testFacade.cpp.o
+
+.PHONY : tests/testFacade.o
+
+# target to build an object file
+tests/testFacade.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testFacade.cpp.o
+.PHONY : tests/testFacade.cpp.o
+
+tests/testFacade.i: tests/testFacade.cpp.i
+
+.PHONY : tests/testFacade.i
+
+# target to preprocess a source file
+tests/testFacade.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testFacade.cpp.i
+.PHONY : tests/testFacade.cpp.i
+
+tests/testFacade.s: tests/testFacade.cpp.s
+
+.PHONY : tests/testFacade.s
+
+# target to generate assembly for a file
+tests/testFacade.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testFacade.cpp.s
+.PHONY : tests/testFacade.cpp.s
+
 tests/testFactoryMethod.o: tests/testFactoryMethod.cpp.o
 
 .PHONY : tests/testFactoryMethod.o
@@ -735,6 +789,9 @@ help:
 	@echo "... src/Decorator.o"
 	@echo "... src/Decorator.i"
 	@echo "... src/Decorator.s"
+	@echo "... src/Facade.o"
+	@echo "... src/Facade.i"
+	@echo "... src/Facade.s"
 	@echo "... src/FactoryMethod.o"
 	@echo "... src/FactoryMethod.i"
 	@echo "... src/FactoryMethod.s"
@@ -759,6 +816,9 @@ help:
 	@echo "... tests/testDecorator.o"
 	@echo "... tests/testDecorator.i"
 	@echo "... tests/testDecorator.s"
+	@echo "... tests/testFacade.o"
+	@echo "... tests/testFacade.i"
+	@echo "... tests/testFacade.s"
 	@echo "... tests/testFactoryMethod.o"
 	@echo "... tests/testFactoryMethod.i"
 	@echo "... tests/testFactoryMethod.s"

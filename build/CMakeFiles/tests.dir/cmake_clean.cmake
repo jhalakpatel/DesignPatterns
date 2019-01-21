@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/tests.dir/tests/testAdapter.cpp.o"
   "CMakeFiles/tests.dir/tests/testCommand.cpp.o"
   "CMakeFiles/tests.dir/tests/testDecorator.cpp.o"
+  "CMakeFiles/tests.dir/tests/testFacade.cpp.o"
   "CMakeFiles/tests.dir/tests/testFactoryMethod.cpp.o"
   "CMakeFiles/tests.dir/tests/testObserver.cpp.o"
   "CMakeFiles/tests.dir/tests/testRunner.cpp.o"
