@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jhalakp/dev/programming/DesignPatterns/src/Facade.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/desingPattern.dir/src/Facade.cpp.o"
   "/home/jhalakp/dev/programming/DesignPatterns/src/FactoryMethod.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o"
   "/home/jhalakp/dev/programming/DesignPatterns/src/Observer.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/desingPattern.dir/src/Observer.cpp.o"
+  "/home/jhalakp/dev/programming/DesignPatterns/src/Proxy.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/desingPattern.dir/src/Proxy.cpp.o"
   "/home/jhalakp/dev/programming/DesignPatterns/src/Singleton.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/desingPattern.dir/src/Singleton.cpp.o"
   "/home/jhalakp/dev/programming/DesignPatterns/src/Strategy.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/desingPattern.dir/src/Strategy.cpp.o"
   )

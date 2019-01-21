@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jhalakp/dev/programming/DesignPatterns/tests/testFacade.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/tests.dir/tests/testFacade.cpp.o"
   "/home/jhalakp/dev/programming/DesignPatterns/tests/testFactoryMethod.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/tests.dir/tests/testFactoryMethod.cpp.o"
   "/home/jhalakp/dev/programming/DesignPatterns/tests/testObserver.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/tests.dir/tests/testObserver.cpp.o"
+  "/home/jhalakp/dev/programming/DesignPatterns/tests/testProxy.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/tests.dir/tests/testProxy.cpp.o"
   "/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/tests.dir/tests/testRunner.cpp.o"
   "/home/jhalakp/dev/programming/DesignPatterns/tests/testSingleton.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/tests.dir/tests/testSingleton.cpp.o"
   "/home/jhalakp/dev/programming/DesignPatterns/tests/testStrategy.cpp" "/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/tests.dir/tests/testStrategy.cpp.o"

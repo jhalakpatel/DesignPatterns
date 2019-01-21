@@ -434,6 +434,33 @@ src/Observer.cpp.s:
 	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Observer.cpp.s
 .PHONY : src/Observer.cpp.s
 
+src/Proxy.o: src/Proxy.cpp.o
+
+.PHONY : src/Proxy.o
+
+# target to build an object file
+src/Proxy.cpp.o:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Proxy.cpp.o
+.PHONY : src/Proxy.cpp.o
+
+src/Proxy.i: src/Proxy.cpp.i
+
+.PHONY : src/Proxy.i
+
+# target to preprocess a source file
+src/Proxy.cpp.i:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Proxy.cpp.i
+.PHONY : src/Proxy.cpp.i
+
+src/Proxy.s: src/Proxy.cpp.s
+
+.PHONY : src/Proxy.s
+
+# target to generate assembly for a file
+src/Proxy.cpp.s:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Proxy.cpp.s
+.PHONY : src/Proxy.cpp.s
+
 src/Singleton.o: src/Singleton.cpp.o
 
 .PHONY : src/Singleton.o
@@ -677,6 +704,33 @@ tests/testObserver.cpp.s:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testObserver.cpp.s
 .PHONY : tests/testObserver.cpp.s
 
+tests/testProxy.o: tests/testProxy.cpp.o
+
+.PHONY : tests/testProxy.o
+
+# target to build an object file
+tests/testProxy.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testProxy.cpp.o
+.PHONY : tests/testProxy.cpp.o
+
+tests/testProxy.i: tests/testProxy.cpp.i
+
+.PHONY : tests/testProxy.i
+
+# target to preprocess a source file
+tests/testProxy.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testProxy.cpp.i
+.PHONY : tests/testProxy.cpp.i
+
+tests/testProxy.s: tests/testProxy.cpp.s
+
+.PHONY : tests/testProxy.s
+
+# target to generate assembly for a file
+tests/testProxy.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testProxy.cpp.s
+.PHONY : tests/testProxy.cpp.s
+
 tests/testRunner.o: tests/testRunner.cpp.o
 
 .PHONY : tests/testRunner.o
@@ -798,6 +852,9 @@ help:
 	@echo "... src/Observer.o"
 	@echo "... src/Observer.i"
 	@echo "... src/Observer.s"
+	@echo "... src/Proxy.o"
+	@echo "... src/Proxy.i"
+	@echo "... src/Proxy.s"
 	@echo "... src/Singleton.o"
 	@echo "... src/Singleton.i"
 	@echo "... src/Singleton.s"
@@ -825,6 +882,9 @@ help:
 	@echo "... tests/testObserver.o"
 	@echo "... tests/testObserver.i"
 	@echo "... tests/testObserver.s"
+	@echo "... tests/testProxy.o"
+	@echo "... tests/testProxy.i"
+	@echo "... tests/testProxy.s"
 	@echo "... tests/testRunner.o"
 	@echo "... tests/testRunner.i"
 	@echo "... tests/testRunner.s"

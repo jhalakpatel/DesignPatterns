@@ -225,9 +225,33 @@ CMakeFiles/tests.dir/tests/testObserver.cpp.o.provides: CMakeFiles/tests.dir/tes
 CMakeFiles/tests.dir/tests/testObserver.cpp.o.provides.build: CMakeFiles/tests.dir/tests/testObserver.cpp.o
 
 
+CMakeFiles/tests.dir/tests/testProxy.cpp.o: CMakeFiles/tests.dir/flags.make
+CMakeFiles/tests.dir/tests/testProxy.cpp.o: ../tests/testProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tests.dir/tests/testProxy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/testProxy.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/tests/testProxy.cpp
+
+CMakeFiles/tests.dir/tests/testProxy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/testProxy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPatterns/tests/testProxy.cpp > CMakeFiles/tests.dir/tests/testProxy.cpp.i
+
+CMakeFiles/tests.dir/tests/testProxy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/testProxy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPatterns/tests/testProxy.cpp -o CMakeFiles/tests.dir/tests/testProxy.cpp.s
+
+CMakeFiles/tests.dir/tests/testProxy.cpp.o.requires:
+
+.PHONY : CMakeFiles/tests.dir/tests/testProxy.cpp.o.requires
+
+CMakeFiles/tests.dir/tests/testProxy.cpp.o.provides: CMakeFiles/tests.dir/tests/testProxy.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testProxy.cpp.o.provides.build
+.PHONY : CMakeFiles/tests.dir/tests/testProxy.cpp.o.provides
+
+CMakeFiles/tests.dir/tests/testProxy.cpp.o.provides.build: CMakeFiles/tests.dir/tests/testProxy.cpp.o
+
+
 CMakeFiles/tests.dir/tests/testRunner.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/testRunner.cpp.o: ../tests/testRunner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tests.dir/tests/testRunner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tests.dir/tests/testRunner.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/testRunner.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.cpp
 
 CMakeFiles/tests.dir/tests/testRunner.cpp.i: cmake_force
@@ -251,7 +275,7 @@ CMakeFiles/tests.dir/tests/testRunner.cpp.o.provides.build: CMakeFiles/tests.dir
 
 CMakeFiles/tests.dir/tests/testSingleton.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/testSingleton.cpp.o: ../tests/testSingleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tests.dir/tests/testSingleton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tests.dir/tests/testSingleton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/testSingleton.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/tests/testSingleton.cpp
 
 CMakeFiles/tests.dir/tests/testSingleton.cpp.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/tests.dir/tests/testSingleton.cpp.o.provides.build: CMakeFiles/tests.
 
 CMakeFiles/tests.dir/tests/testStrategy.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/testStrategy.cpp.o: ../tests/testStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tests.dir/tests/testStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tests.dir/tests/testStrategy.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/testStrategy.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/tests/testStrategy.cpp
 
 CMakeFiles/tests.dir/tests/testStrategy.cpp.i: cmake_force
@@ -306,6 +330,7 @@ tests_OBJECTS = \
 "CMakeFiles/tests.dir/tests/testFacade.cpp.o" \
 "CMakeFiles/tests.dir/tests/testFactoryMethod.cpp.o" \
 "CMakeFiles/tests.dir/tests/testObserver.cpp.o" \
+"CMakeFiles/tests.dir/tests/testProxy.cpp.o" \
 "CMakeFiles/tests.dir/tests/testRunner.cpp.o" \
 "CMakeFiles/tests.dir/tests/testSingleton.cpp.o" \
 "CMakeFiles/tests.dir/tests/testStrategy.cpp.o"
@@ -320,6 +345,7 @@ tests_EXTERNAL_OBJECTS =
 ../bin/tests: CMakeFiles/tests.dir/tests/testFacade.cpp.o
 ../bin/tests: CMakeFiles/tests.dir/tests/testFactoryMethod.cpp.o
 ../bin/tests: CMakeFiles/tests.dir/tests/testObserver.cpp.o
+../bin/tests: CMakeFiles/tests.dir/tests/testProxy.cpp.o
 ../bin/tests: CMakeFiles/tests.dir/tests/testRunner.cpp.o
 ../bin/tests: CMakeFiles/tests.dir/tests/testSingleton.cpp.o
 ../bin/tests: CMakeFiles/tests.dir/tests/testStrategy.cpp.o
@@ -328,7 +354,7 @@ tests_EXTERNAL_OBJECTS =
 ../bin/tests: ../lib/libgtest_main.a
 ../bin/tests: ../lib/libgtest.a
 ../bin/tests: CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ../bin/tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ../bin/tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -343,6 +369,7 @@ CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/tests/testDecorator.cpp.o.re
 CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/tests/testFacade.cpp.o.requires
 CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/tests/testFactoryMethod.cpp.o.requires
 CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/tests/testObserver.cpp.o.requires
+CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/tests/testProxy.cpp.o.requires
 CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/tests/testRunner.cpp.o.requires
 CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/tests/testSingleton.cpp.o.requires
 CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/tests/testStrategy.cpp.o.requires

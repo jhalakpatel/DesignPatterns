@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/desingPattern.dir/src/Facade.cpp.o"
   "CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o"
   "CMakeFiles/desingPattern.dir/src/Observer.cpp.o"
+  "CMakeFiles/desingPattern.dir/src/Proxy.cpp.o"
   "CMakeFiles/desingPattern.dir/src/Singleton.cpp.o"
   "CMakeFiles/desingPattern.dir/src/Strategy.cpp.o"
   "../lib/libdesingPattern.pdb"

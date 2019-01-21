@@ -17,6 +17,10 @@ memory
 -
 deque
 -
+chrono
+-
+thread
+-
 spdlog/spdlog.h
 ../include/spdlog/spdlog.h
 spdlog/sinks/stdout_color_sinks.h
@@ -441,6 +445,14 @@ Observer.h
 /home/jhalakp/dev/programming/DesignPatterns/src/Observer.h
 
 /home/jhalakp/dev/programming/DesignPatterns/src/Observer.h
+
+/home/jhalakp/dev/programming/DesignPatterns/src/Proxy.cpp
+Proxy.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Proxy.h
+
+/home/jhalakp/dev/programming/DesignPatterns/src/Proxy.h
+common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
 /home/jhalakp/dev/programming/DesignPatterns/src/Singleton.cpp
 Singleton.h

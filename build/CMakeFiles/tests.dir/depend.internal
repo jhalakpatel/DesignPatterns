@@ -357,6 +357,57 @@ CMakeFiles/tests.dir/tests/testObserver.cpp.o
  /home/jhalakp/dev/programming/DesignPatterns/src/Observer.h
  /home/jhalakp/dev/programming/DesignPatterns/tests/testObserver.cpp
  /home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
+CMakeFiles/tests.dir/tests/testProxy.cpp.o
+ ../googletest/googletest/include/gtest/gtest-death-test.h
+ ../googletest/googletest/include/gtest/gtest-message.h
+ ../googletest/googletest/include/gtest/gtest-param-test.h
+ ../googletest/googletest/include/gtest/gtest-printers.h
+ ../googletest/googletest/include/gtest/gtest-test-part.h
+ ../googletest/googletest/include/gtest/gtest-typed-test.h
+ ../googletest/googletest/include/gtest/gtest.h
+ ../googletest/googletest/include/gtest/gtest_pred_impl.h
+ ../googletest/googletest/include/gtest/gtest_prod.h
+ ../googletest/googletest/include/gtest/internal/custom/gtest-port.h
+ ../googletest/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../googletest/googletest/include/gtest/internal/gtest-filepath.h
+ ../googletest/googletest/include/gtest/internal/gtest-internal.h
+ ../googletest/googletest/include/gtest/internal/gtest-linked_ptr.h
+ ../googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
+ ../googletest/googletest/include/gtest/internal/gtest-param-util.h
+ ../googletest/googletest/include/gtest/internal/gtest-port-arch.h
+ ../googletest/googletest/include/gtest/internal/gtest-port.h
+ ../googletest/googletest/include/gtest/internal/gtest-string.h
+ ../googletest/googletest/include/gtest/internal/gtest-tuple.h
+ ../googletest/googletest/include/gtest/internal/gtest-type-util.h
+ ../include/common.h
+ ../include/spdlog/common.h
+ ../include/spdlog/details/console_globals.h
+ ../include/spdlog/details/fmt_helper.h
+ ../include/spdlog/details/log_msg.h
+ ../include/spdlog/details/logger_impl.h
+ ../include/spdlog/details/null_mutex.h
+ ../include/spdlog/details/os.h
+ ../include/spdlog/details/pattern_formatter.h
+ ../include/spdlog/details/periodic_worker.h
+ ../include/spdlog/details/registry.h
+ ../include/spdlog/fmt/bundled/core.h
+ ../include/spdlog/fmt/bundled/format-inl.h
+ ../include/spdlog/fmt/bundled/format.h
+ ../include/spdlog/fmt/fmt.h
+ ../include/spdlog/formatter.h
+ ../include/spdlog/logger.h
+ ../include/spdlog/sinks/ansicolor_sink.h
+ ../include/spdlog/sinks/sink.h
+ ../include/spdlog/sinks/wincolor_sink.h
+ ../include/spdlog/tweakme.h
+ ../include/spdlog/version.h
+ /home/jhalakp/dev/programming/DesignPatterns/include/common.h
+ /home/jhalakp/dev/programming/DesignPatterns/include/spdlog/sinks/stdout_color_sinks.h
+ /home/jhalakp/dev/programming/DesignPatterns/include/spdlog/spdlog.h
+ /home/jhalakp/dev/programming/DesignPatterns/src/Proxy.h
+ /home/jhalakp/dev/programming/DesignPatterns/tests/testProxy.cpp
+ /home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 CMakeFiles/tests.dir/tests/testRunner.cpp.o
  ../googletest/googletest/include/gtest/gtest-death-test.h
  ../googletest/googletest/include/gtest/gtest-message.h

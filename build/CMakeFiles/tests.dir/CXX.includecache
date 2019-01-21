@@ -297,6 +297,10 @@ memory
 -
 deque
 -
+chrono
+-
+thread
+-
 spdlog/spdlog.h
 ../include/spdlog/spdlog.h
 spdlog/sinks/stdout_color_sinks.h
@@ -653,6 +657,10 @@ memory
 -
 deque
 -
+chrono
+-
+thread
+-
 spdlog/spdlog.h
 /home/jhalakp/dev/programming/DesignPatterns/include/spdlog/spdlog.h
 spdlog/sinks/stdout_color_sinks.h
@@ -708,6 +716,10 @@ common.h
 
 /home/jhalakp/dev/programming/DesignPatterns/src/Observer.h
 
+/home/jhalakp/dev/programming/DesignPatterns/src/Proxy.h
+common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
+
 /home/jhalakp/dev/programming/DesignPatterns/src/Singleton.h
 common.h
 /home/jhalakp/dev/programming/DesignPatterns/src/common.h
@@ -757,6 +769,12 @@ testRunner.h
 /home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 ../src/Observer.h
 /home/jhalakp/dev/programming/DesignPatterns/src/Observer.h
+
+/home/jhalakp/dev/programming/DesignPatterns/tests/testProxy.cpp
+testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
+../src/Proxy.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Proxy.h
 
 /home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.cpp
 gtest/gtest.h
