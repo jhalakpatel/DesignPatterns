@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -Wextra -Wconversion -pedantic -Wfatal-errors -std=c++
 
 CXX_DEFINES = -DdesingPattern_EXPORTS
 
-CXX_INCLUDES = -I/home/jhalakp/dev/programming/DesignPattern/include -I/home/jhalakp/dev/programming/DesignPattern/googlenet/include -I/home/jhalakp/dev/programming/DesignPattern/include/sdplog 
+CXX_INCLUDES = -I/home/jhalakp/dev/programming/DesignPatterns/include -I/home/jhalakp/dev/programming/DesignPatterns/googlenet/include -I/home/jhalakp/dev/programming/DesignPatterns/include/sdplog 
 

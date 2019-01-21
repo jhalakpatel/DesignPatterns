@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhalakp/dev/programming/DesignPattern
+CMAKE_SOURCE_DIR = /home/jhalakp/dev/programming/DesignPatterns
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhalakp/dev/programming/DesignPattern/build
+CMAKE_BINARY_DIR = /home/jhalakp/dev/programming/DesignPatterns/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jhalakp/dev/programming/DesignPattern/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles /home/jhalakp/dev/programming/DesignPattern/build/googletest/CMakeFiles/progress.marks
-	cd /home/jhalakp/dev/programming/DesignPattern/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles 0
+	cd /home/jhalakp/dev/programming/DesignPatterns/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles /home/jhalakp/dev/programming/DesignPatterns/build/googletest/CMakeFiles/progress.marks
+	cd /home/jhalakp/dev/programming/DesignPatterns/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jhalakp/dev/programming/DesignPattern/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/clean
+	cd /home/jhalakp/dev/programming/DesignPatterns/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jhalakp/dev/programming/DesignPattern/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/preinstall
+	cd /home/jhalakp/dev/programming/DesignPatterns/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jhalakp/dev/programming/DesignPattern/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/preinstall
+	cd /home/jhalakp/dev/programming/DesignPatterns/build && $(MAKE) -f CMakeFiles/Makefile2 googletest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jhalakp/dev/programming/DesignPattern/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jhalakp/dev/programming/DesignPatterns/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jhalakp/dev/programming/DesignPattern/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jhalakp/dev/programming/DesignPatterns/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/Observer.dir/src/Observer.cpp.o  -o ../bin/Observer 

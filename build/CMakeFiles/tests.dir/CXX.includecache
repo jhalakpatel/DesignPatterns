@@ -642,7 +642,7 @@ wincon.h
 
 ../include/spdlog/version.h
 
-/home/jhalakp/dev/programming/DesignPattern/include/common.h
+/home/jhalakp/dev/programming/DesignPatterns/include/common.h
 iostream
 -
 unordered_set
@@ -654,25 +654,25 @@ memory
 deque
 -
 spdlog/spdlog.h
-/home/jhalakp/dev/programming/DesignPattern/include/spdlog/spdlog.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/spdlog.h
 spdlog/sinks/stdout_color_sinks.h
-/home/jhalakp/dev/programming/DesignPattern/include/spdlog/sinks/stdout_color_sinks.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/sinks/stdout_color_sinks.h
 
-/home/jhalakp/dev/programming/DesignPattern/include/spdlog/sinks/stdout_color_sinks.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/sinks/stdout_color_sinks.h
 spdlog/sinks/wincolor_sink.h
-/home/jhalakp/dev/programming/DesignPattern/include/spdlog/sinks/spdlog/sinks/wincolor_sink.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/sinks/spdlog/sinks/wincolor_sink.h
 spdlog/sinks/ansicolor_sink.h
-/home/jhalakp/dev/programming/DesignPattern/include/spdlog/sinks/spdlog/sinks/ansicolor_sink.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/sinks/spdlog/sinks/ansicolor_sink.h
 
-/home/jhalakp/dev/programming/DesignPattern/include/spdlog/spdlog.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/spdlog.h
 spdlog/common.h
-/home/jhalakp/dev/programming/DesignPattern/include/spdlog/spdlog/common.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/spdlog/common.h
 spdlog/details/registry.h
-/home/jhalakp/dev/programming/DesignPattern/include/spdlog/spdlog/details/registry.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/spdlog/details/registry.h
 spdlog/logger.h
-/home/jhalakp/dev/programming/DesignPattern/include/spdlog/spdlog/logger.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/spdlog/logger.h
 spdlog/version.h
-/home/jhalakp/dev/programming/DesignPattern/include/spdlog/spdlog/version.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/spdlog/version.h
 chrono
 -
 functional
@@ -682,81 +682,91 @@ memory
 string
 -
 
-/home/jhalakp/dev/programming/DesignPattern/src/AbstractFactory.h
+/home/jhalakp/dev/programming/DesignPatterns/src/AbstractFactory.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Command.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Adapter.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Decorator.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Command.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/FactoryMethod.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Decorator.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Observer.h
-
-/home/jhalakp/dev/programming/DesignPattern/src/Singleton.h
+/home/jhalakp/dev/programming/DesignPatterns/src/FactoryMethod.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Strategy.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Observer.h
+
+/home/jhalakp/dev/programming/DesignPatterns/src/Singleton.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
-/home/jhalakp/dev/programming/DesignPattern/tests/testAbstractFactory.cpp
+/home/jhalakp/dev/programming/DesignPatterns/src/Strategy.h
+common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
+
+/home/jhalakp/dev/programming/DesignPatterns/tests/testAbstractFactory.cpp
 testRunner.h
-/home/jhalakp/dev/programming/DesignPattern/tests/testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 ../src/AbstractFactory.h
-/home/jhalakp/dev/programming/DesignPattern/src/AbstractFactory.h
+/home/jhalakp/dev/programming/DesignPatterns/src/AbstractFactory.h
 
-/home/jhalakp/dev/programming/DesignPattern/tests/testCommand.cpp
+/home/jhalakp/dev/programming/DesignPatterns/tests/testAdapter.cpp
 testRunner.h
-/home/jhalakp/dev/programming/DesignPattern/tests/testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
+../src/Adapter.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Adapter.h
+
+/home/jhalakp/dev/programming/DesignPatterns/tests/testCommand.cpp
+testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 ../src/Command.h
-/home/jhalakp/dev/programming/DesignPattern/src/Command.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Command.h
 
-/home/jhalakp/dev/programming/DesignPattern/tests/testDecorator.cpp
+/home/jhalakp/dev/programming/DesignPatterns/tests/testDecorator.cpp
 testRunner.h
-/home/jhalakp/dev/programming/DesignPattern/tests/testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 ../src/Decorator.h
-/home/jhalakp/dev/programming/DesignPattern/src/Decorator.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Decorator.h
 
-/home/jhalakp/dev/programming/DesignPattern/tests/testFactoryMethod.cpp
+/home/jhalakp/dev/programming/DesignPatterns/tests/testFactoryMethod.cpp
 testRunner.h
-/home/jhalakp/dev/programming/DesignPattern/tests/testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 ../src/FactoryMethod.h
-/home/jhalakp/dev/programming/DesignPattern/src/FactoryMethod.h
+/home/jhalakp/dev/programming/DesignPatterns/src/FactoryMethod.h
 
-/home/jhalakp/dev/programming/DesignPattern/tests/testObserver.cpp
+/home/jhalakp/dev/programming/DesignPatterns/tests/testObserver.cpp
 testRunner.h
-/home/jhalakp/dev/programming/DesignPattern/tests/testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 ../src/Observer.h
-/home/jhalakp/dev/programming/DesignPattern/src/Observer.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Observer.h
 
-/home/jhalakp/dev/programming/DesignPattern/tests/testRunner.cpp
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.cpp
 gtest/gtest.h
-/home/jhalakp/dev/programming/DesignPattern/tests/gtest/gtest.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/gtest/gtest.h
 
-/home/jhalakp/dev/programming/DesignPattern/tests/testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 ../include/common.h
-/home/jhalakp/dev/programming/DesignPattern/include/common.h
+/home/jhalakp/dev/programming/DesignPatterns/include/common.h
 gtest/gtest.h
-/home/jhalakp/dev/programming/DesignPattern/tests/gtest/gtest.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/gtest/gtest.h
 
-/home/jhalakp/dev/programming/DesignPattern/tests/testSingleton.cpp
+/home/jhalakp/dev/programming/DesignPatterns/tests/testSingleton.cpp
 testRunner.h
-/home/jhalakp/dev/programming/DesignPattern/tests/testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 ../src/Singleton.h
-/home/jhalakp/dev/programming/DesignPattern/src/Singleton.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Singleton.h
 
-/home/jhalakp/dev/programming/DesignPattern/tests/testStrategy.cpp
+/home/jhalakp/dev/programming/DesignPatterns/tests/testStrategy.cpp
 testRunner.h
-/home/jhalakp/dev/programming/DesignPattern/tests/testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 ../src/Strategy.h
-/home/jhalakp/dev/programming/DesignPattern/src/Strategy.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Strategy.h
 

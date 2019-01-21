@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o"
+  "CMakeFiles/desingPattern.dir/src/Adapter.cpp.o"
   "CMakeFiles/desingPattern.dir/src/Command.cpp.o"
   "CMakeFiles/desingPattern.dir/src/Decorator.cpp.o"
   "CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o"

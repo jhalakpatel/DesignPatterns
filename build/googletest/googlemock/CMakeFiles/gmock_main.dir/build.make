@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhalakp/dev/programming/DesignPattern
+CMAKE_SOURCE_DIR = /home/jhalakp/dev/programming/DesignPatterns
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhalakp/dev/programming/DesignPattern/build
+CMAKE_BINARY_DIR = /home/jhalakp/dev/programming/DesignPatterns/build
 
 # Include any dependencies generated for this target.
 include googletest/googlemock/CMakeFiles/gmock_main.dir/depend.make
@@ -59,16 +59,16 @@ include googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: ../googletest/googlemock/src/gmock_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
-	cd /home/jhalakp/dev/programming/DesignPattern/build/googletest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/jhalakp/dev/programming/DesignPattern/googletest/googlemock/src/gmock_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+	cd /home/jhalakp/dev/programming/DesignPatterns/build/googletest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/jhalakp/dev/programming/DesignPatterns/googletest/googlemock/src/gmock_main.cc
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock_main.cc.i"
-	cd /home/jhalakp/dev/programming/DesignPattern/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPattern/googletest/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /home/jhalakp/dev/programming/DesignPatterns/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPatterns/googletest/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock_main.cc.s"
-	cd /home/jhalakp/dev/programming/DesignPattern/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPattern/googletest/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /home/jhalakp/dev/programming/DesignPatterns/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPatterns/googletest/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.requires:
 
@@ -91,9 +91,9 @@ gmock_main_EXTERNAL_OBJECTS =
 ../lib/libgmock_main.a: googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 ../lib/libgmock_main.a: googletest/googlemock/CMakeFiles/gmock_main.dir/build.make
 ../lib/libgmock_main.a: googletest/googlemock/CMakeFiles/gmock_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgmock_main.a"
-	cd /home/jhalakp/dev/programming/DesignPattern/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
-	cd /home/jhalakp/dev/programming/DesignPattern/build/googletest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgmock_main.a"
+	cd /home/jhalakp/dev/programming/DesignPatterns/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
+	cd /home/jhalakp/dev/programming/DesignPatterns/build/googletest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 googletest/googlemock/CMakeFiles/gmock_main.dir/build: ../lib/libgmock_main.a
@@ -105,10 +105,10 @@ googletest/googlemock/CMakeFiles/gmock_main.dir/requires: googletest/googlemock/
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/requires
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
-	cd /home/jhalakp/dev/programming/DesignPattern/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
+	cd /home/jhalakp/dev/programming/DesignPatterns/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/clean
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/depend:
-	cd /home/jhalakp/dev/programming/DesignPattern/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jhalakp/dev/programming/DesignPattern /home/jhalakp/dev/programming/DesignPattern/googletest/googlemock /home/jhalakp/dev/programming/DesignPattern/build /home/jhalakp/dev/programming/DesignPattern/build/googletest/googlemock /home/jhalakp/dev/programming/DesignPattern/build/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jhalakp/dev/programming/DesignPatterns/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jhalakp/dev/programming/DesignPatterns /home/jhalakp/dev/programming/DesignPatterns/googletest/googlemock /home/jhalakp/dev/programming/DesignPatterns/build /home/jhalakp/dev/programming/DesignPatterns/build/googletest/googlemock /home/jhalakp/dev/programming/DesignPatterns/build/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10.2)
-project(DesignPattern VERSION 0.1 LANGUAGES CXX)
+project(DesignPatterns VERSION 0.1 LANGUAGES CXX)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/googlenet/include)
@@ -21,7 +21,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
-# Build Design Pattern Library 
+# Build Design Pattern Library
 file(GLOB SOURCES "src/*.cpp")
 add_library(desingPattern SHARED ${SOURCES})
 

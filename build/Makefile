@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhalakp/dev/programming/DesignPattern
+CMAKE_SOURCE_DIR = /home/jhalakp/dev/programming/DesignPatterns
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhalakp/dev/programming/DesignPattern/build
+CMAKE_BINARY_DIR = /home/jhalakp/dev/programming/DesignPatterns/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles /home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles /home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -271,6 +271,33 @@ src/AbstractFactory.s: src/AbstractFactory.cpp.s
 src/AbstractFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.s
 .PHONY : src/AbstractFactory.cpp.s
+
+src/Adapter.o: src/Adapter.cpp.o
+
+.PHONY : src/Adapter.o
+
+# target to build an object file
+src/Adapter.cpp.o:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Adapter.cpp.o
+.PHONY : src/Adapter.cpp.o
+
+src/Adapter.i: src/Adapter.cpp.i
+
+.PHONY : src/Adapter.i
+
+# target to preprocess a source file
+src/Adapter.cpp.i:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Adapter.cpp.i
+.PHONY : src/Adapter.cpp.i
+
+src/Adapter.s: src/Adapter.cpp.s
+
+.PHONY : src/Adapter.s
+
+# target to generate assembly for a file
+src/Adapter.cpp.s:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Adapter.cpp.s
+.PHONY : src/Adapter.cpp.s
 
 src/Command.o: src/Command.cpp.o
 
@@ -460,6 +487,33 @@ tests/testAbstractFactory.s: tests/testAbstractFactory.cpp.s
 tests/testAbstractFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testAbstractFactory.cpp.s
 .PHONY : tests/testAbstractFactory.cpp.s
+
+tests/testAdapter.o: tests/testAdapter.cpp.o
+
+.PHONY : tests/testAdapter.o
+
+# target to build an object file
+tests/testAdapter.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testAdapter.cpp.o
+.PHONY : tests/testAdapter.cpp.o
+
+tests/testAdapter.i: tests/testAdapter.cpp.i
+
+.PHONY : tests/testAdapter.i
+
+# target to preprocess a source file
+tests/testAdapter.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testAdapter.cpp.i
+.PHONY : tests/testAdapter.cpp.i
+
+tests/testAdapter.s: tests/testAdapter.cpp.s
+
+.PHONY : tests/testAdapter.s
+
+# target to generate assembly for a file
+tests/testAdapter.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testAdapter.cpp.s
+.PHONY : tests/testAdapter.cpp.s
 
 tests/testCommand.o: tests/testCommand.cpp.o
 
@@ -672,6 +726,9 @@ help:
 	@echo "... src/AbstractFactory.o"
 	@echo "... src/AbstractFactory.i"
 	@echo "... src/AbstractFactory.s"
+	@echo "... src/Adapter.o"
+	@echo "... src/Adapter.i"
+	@echo "... src/Adapter.s"
 	@echo "... src/Command.o"
 	@echo "... src/Command.i"
 	@echo "... src/Command.s"
@@ -693,6 +750,9 @@ help:
 	@echo "... tests/testAbstractFactory.o"
 	@echo "... tests/testAbstractFactory.i"
 	@echo "... tests/testAbstractFactory.s"
+	@echo "... tests/testAdapter.o"
+	@echo "... tests/testAdapter.i"
+	@echo "... tests/testAdapter.s"
 	@echo "... tests/testCommand.o"
 	@echo "... tests/testCommand.i"
 	@echo "... tests/testCommand.s"

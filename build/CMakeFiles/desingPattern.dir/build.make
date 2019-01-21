@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhalakp/dev/programming/DesignPattern
+CMAKE_SOURCE_DIR = /home/jhalakp/dev/programming/DesignPatterns
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhalakp/dev/programming/DesignPattern/build
+CMAKE_BINARY_DIR = /home/jhalakp/dev/programming/DesignPatterns/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/desingPattern.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/desingPattern.dir/flags.make
 
 CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o: CMakeFiles/desingPattern.dir/flags.make
 CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o: ../src/AbstractFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o -c /home/jhalakp/dev/programming/DesignPattern/src/AbstractFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/AbstractFactory.cpp
 
 CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPattern/src/AbstractFactory.cpp > CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPatterns/src/AbstractFactory.cpp > CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.i
 
 CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPattern/src/AbstractFactory.cpp -o CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPatterns/src/AbstractFactory.cpp -o CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.s
 
 CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o.requires:
 
@@ -81,18 +81,42 @@ CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o.provides: CMakeFiles/desi
 CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o.provides.build: CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o
 
 
+CMakeFiles/desingPattern.dir/src/Adapter.cpp.o: CMakeFiles/desingPattern.dir/flags.make
+CMakeFiles/desingPattern.dir/src/Adapter.cpp.o: ../src/Adapter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/desingPattern.dir/src/Adapter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Adapter.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/Adapter.cpp
+
+CMakeFiles/desingPattern.dir/src/Adapter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/desingPattern.dir/src/Adapter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPatterns/src/Adapter.cpp > CMakeFiles/desingPattern.dir/src/Adapter.cpp.i
+
+CMakeFiles/desingPattern.dir/src/Adapter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/desingPattern.dir/src/Adapter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPatterns/src/Adapter.cpp -o CMakeFiles/desingPattern.dir/src/Adapter.cpp.s
+
+CMakeFiles/desingPattern.dir/src/Adapter.cpp.o.requires:
+
+.PHONY : CMakeFiles/desingPattern.dir/src/Adapter.cpp.o.requires
+
+CMakeFiles/desingPattern.dir/src/Adapter.cpp.o.provides: CMakeFiles/desingPattern.dir/src/Adapter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Adapter.cpp.o.provides.build
+.PHONY : CMakeFiles/desingPattern.dir/src/Adapter.cpp.o.provides
+
+CMakeFiles/desingPattern.dir/src/Adapter.cpp.o.provides.build: CMakeFiles/desingPattern.dir/src/Adapter.cpp.o
+
+
 CMakeFiles/desingPattern.dir/src/Command.cpp.o: CMakeFiles/desingPattern.dir/flags.make
 CMakeFiles/desingPattern.dir/src/Command.cpp.o: ../src/Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/desingPattern.dir/src/Command.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Command.cpp.o -c /home/jhalakp/dev/programming/DesignPattern/src/Command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/desingPattern.dir/src/Command.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Command.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/Command.cpp
 
 CMakeFiles/desingPattern.dir/src/Command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/desingPattern.dir/src/Command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPattern/src/Command.cpp > CMakeFiles/desingPattern.dir/src/Command.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPatterns/src/Command.cpp > CMakeFiles/desingPattern.dir/src/Command.cpp.i
 
 CMakeFiles/desingPattern.dir/src/Command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/desingPattern.dir/src/Command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPattern/src/Command.cpp -o CMakeFiles/desingPattern.dir/src/Command.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPatterns/src/Command.cpp -o CMakeFiles/desingPattern.dir/src/Command.cpp.s
 
 CMakeFiles/desingPattern.dir/src/Command.cpp.o.requires:
 
@@ -107,16 +131,16 @@ CMakeFiles/desingPattern.dir/src/Command.cpp.o.provides.build: CMakeFiles/desing
 
 CMakeFiles/desingPattern.dir/src/Decorator.cpp.o: CMakeFiles/desingPattern.dir/flags.make
 CMakeFiles/desingPattern.dir/src/Decorator.cpp.o: ../src/Decorator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/desingPattern.dir/src/Decorator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Decorator.cpp.o -c /home/jhalakp/dev/programming/DesignPattern/src/Decorator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/desingPattern.dir/src/Decorator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Decorator.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/Decorator.cpp
 
 CMakeFiles/desingPattern.dir/src/Decorator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/desingPattern.dir/src/Decorator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPattern/src/Decorator.cpp > CMakeFiles/desingPattern.dir/src/Decorator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPatterns/src/Decorator.cpp > CMakeFiles/desingPattern.dir/src/Decorator.cpp.i
 
 CMakeFiles/desingPattern.dir/src/Decorator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/desingPattern.dir/src/Decorator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPattern/src/Decorator.cpp -o CMakeFiles/desingPattern.dir/src/Decorator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPatterns/src/Decorator.cpp -o CMakeFiles/desingPattern.dir/src/Decorator.cpp.s
 
 CMakeFiles/desingPattern.dir/src/Decorator.cpp.o.requires:
 
@@ -131,16 +155,16 @@ CMakeFiles/desingPattern.dir/src/Decorator.cpp.o.provides.build: CMakeFiles/desi
 
 CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o: CMakeFiles/desingPattern.dir/flags.make
 CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o: ../src/FactoryMethod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o -c /home/jhalakp/dev/programming/DesignPattern/src/FactoryMethod.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/FactoryMethod.cpp
 
 CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPattern/src/FactoryMethod.cpp > CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPatterns/src/FactoryMethod.cpp > CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.i
 
 CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPattern/src/FactoryMethod.cpp -o CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPatterns/src/FactoryMethod.cpp -o CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.s
 
 CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o.requires:
 
@@ -155,16 +179,16 @@ CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/desingPattern.dir/src/Observer.cpp.o: CMakeFiles/desingPattern.dir/flags.make
 CMakeFiles/desingPattern.dir/src/Observer.cpp.o: ../src/Observer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/desingPattern.dir/src/Observer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Observer.cpp.o -c /home/jhalakp/dev/programming/DesignPattern/src/Observer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/desingPattern.dir/src/Observer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Observer.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/Observer.cpp
 
 CMakeFiles/desingPattern.dir/src/Observer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/desingPattern.dir/src/Observer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPattern/src/Observer.cpp > CMakeFiles/desingPattern.dir/src/Observer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPatterns/src/Observer.cpp > CMakeFiles/desingPattern.dir/src/Observer.cpp.i
 
 CMakeFiles/desingPattern.dir/src/Observer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/desingPattern.dir/src/Observer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPattern/src/Observer.cpp -o CMakeFiles/desingPattern.dir/src/Observer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPatterns/src/Observer.cpp -o CMakeFiles/desingPattern.dir/src/Observer.cpp.s
 
 CMakeFiles/desingPattern.dir/src/Observer.cpp.o.requires:
 
@@ -179,16 +203,16 @@ CMakeFiles/desingPattern.dir/src/Observer.cpp.o.provides.build: CMakeFiles/desin
 
 CMakeFiles/desingPattern.dir/src/Singleton.cpp.o: CMakeFiles/desingPattern.dir/flags.make
 CMakeFiles/desingPattern.dir/src/Singleton.cpp.o: ../src/Singleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/desingPattern.dir/src/Singleton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Singleton.cpp.o -c /home/jhalakp/dev/programming/DesignPattern/src/Singleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/desingPattern.dir/src/Singleton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Singleton.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/Singleton.cpp
 
 CMakeFiles/desingPattern.dir/src/Singleton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/desingPattern.dir/src/Singleton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPattern/src/Singleton.cpp > CMakeFiles/desingPattern.dir/src/Singleton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPatterns/src/Singleton.cpp > CMakeFiles/desingPattern.dir/src/Singleton.cpp.i
 
 CMakeFiles/desingPattern.dir/src/Singleton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/desingPattern.dir/src/Singleton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPattern/src/Singleton.cpp -o CMakeFiles/desingPattern.dir/src/Singleton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPatterns/src/Singleton.cpp -o CMakeFiles/desingPattern.dir/src/Singleton.cpp.s
 
 CMakeFiles/desingPattern.dir/src/Singleton.cpp.o.requires:
 
@@ -203,16 +227,16 @@ CMakeFiles/desingPattern.dir/src/Singleton.cpp.o.provides.build: CMakeFiles/desi
 
 CMakeFiles/desingPattern.dir/src/Strategy.cpp.o: CMakeFiles/desingPattern.dir/flags.make
 CMakeFiles/desingPattern.dir/src/Strategy.cpp.o: ../src/Strategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/desingPattern.dir/src/Strategy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Strategy.cpp.o -c /home/jhalakp/dev/programming/DesignPattern/src/Strategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/desingPattern.dir/src/Strategy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/desingPattern.dir/src/Strategy.cpp.o -c /home/jhalakp/dev/programming/DesignPatterns/src/Strategy.cpp
 
 CMakeFiles/desingPattern.dir/src/Strategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/desingPattern.dir/src/Strategy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPattern/src/Strategy.cpp > CMakeFiles/desingPattern.dir/src/Strategy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhalakp/dev/programming/DesignPatterns/src/Strategy.cpp > CMakeFiles/desingPattern.dir/src/Strategy.cpp.i
 
 CMakeFiles/desingPattern.dir/src/Strategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/desingPattern.dir/src/Strategy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPattern/src/Strategy.cpp -o CMakeFiles/desingPattern.dir/src/Strategy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhalakp/dev/programming/DesignPatterns/src/Strategy.cpp -o CMakeFiles/desingPattern.dir/src/Strategy.cpp.s
 
 CMakeFiles/desingPattern.dir/src/Strategy.cpp.o.requires:
 
@@ -228,6 +252,7 @@ CMakeFiles/desingPattern.dir/src/Strategy.cpp.o.provides.build: CMakeFiles/desin
 # Object files for target desingPattern
 desingPattern_OBJECTS = \
 "CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o" \
+"CMakeFiles/desingPattern.dir/src/Adapter.cpp.o" \
 "CMakeFiles/desingPattern.dir/src/Command.cpp.o" \
 "CMakeFiles/desingPattern.dir/src/Decorator.cpp.o" \
 "CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o" \
@@ -239,6 +264,7 @@ desingPattern_OBJECTS = \
 desingPattern_EXTERNAL_OBJECTS =
 
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o
+../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/Adapter.cpp.o
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/Command.cpp.o
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/Decorator.cpp.o
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o
@@ -247,7 +273,7 @@ desingPattern_EXTERNAL_OBJECTS =
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/src/Strategy.cpp.o
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/build.make
 ../lib/libdesingPattern.so: CMakeFiles/desingPattern.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library ../lib/libdesingPattern.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library ../lib/libdesingPattern.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/desingPattern.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -256,6 +282,7 @@ CMakeFiles/desingPattern.dir/build: ../lib/libdesingPattern.so
 .PHONY : CMakeFiles/desingPattern.dir/build
 
 CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/AbstractFactory.cpp.o.requires
+CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/Adapter.cpp.o.requires
 CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/Command.cpp.o.requires
 CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/Decorator.cpp.o.requires
 CMakeFiles/desingPattern.dir/requires: CMakeFiles/desingPattern.dir/src/FactoryMethod.cpp.o.requires
@@ -270,6 +297,6 @@ CMakeFiles/desingPattern.dir/clean:
 .PHONY : CMakeFiles/desingPattern.dir/clean
 
 CMakeFiles/desingPattern.dir/depend:
-	cd /home/jhalakp/dev/programming/DesignPattern/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jhalakp/dev/programming/DesignPattern /home/jhalakp/dev/programming/DesignPattern /home/jhalakp/dev/programming/DesignPattern/build /home/jhalakp/dev/programming/DesignPattern/build /home/jhalakp/dev/programming/DesignPattern/build/CMakeFiles/desingPattern.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jhalakp/dev/programming/DesignPatterns/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jhalakp/dev/programming/DesignPatterns /home/jhalakp/dev/programming/DesignPatterns /home/jhalakp/dev/programming/DesignPatterns/build /home/jhalakp/dev/programming/DesignPatterns/build /home/jhalakp/dev/programming/DesignPatterns/build/CMakeFiles/desingPattern.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/desingPattern.dir/depend
 

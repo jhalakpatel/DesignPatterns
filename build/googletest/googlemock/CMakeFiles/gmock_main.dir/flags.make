@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREA
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jhalakp/dev/programming/DesignPattern/include -I/home/jhalakp/dev/programming/DesignPattern/googlenet/include -I/home/jhalakp/dev/programming/DesignPattern/include/sdplog -isystem /home/jhalakp/dev/programming/DesignPattern/googletest/googlemock/include -isystem /home/jhalakp/dev/programming/DesignPattern/googletest/googlemock -isystem /home/jhalakp/dev/programming/DesignPattern/googletest/googletest/include -isystem /home/jhalakp/dev/programming/DesignPattern/googletest/googletest 
+CXX_INCLUDES = -I/home/jhalakp/dev/programming/DesignPatterns/include -I/home/jhalakp/dev/programming/DesignPatterns/googlenet/include -I/home/jhalakp/dev/programming/DesignPatterns/include/sdplog -isystem /home/jhalakp/dev/programming/DesignPatterns/googletest/googlemock/include -isystem /home/jhalakp/dev/programming/DesignPatterns/googletest/googlemock -isystem /home/jhalakp/dev/programming/DesignPatterns/googletest/googletest/include -isystem /home/jhalakp/dev/programming/DesignPatterns/googletest/googletest 
 

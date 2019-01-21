@@ -24,4 +24,4 @@ googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
  ../googletest/googletest/include/gtest/internal/gtest-string.h
  ../googletest/googletest/include/gtest/internal/gtest-tuple.h
  ../googletest/googletest/include/gtest/internal/gtest-type-util.h
- /home/jhalakp/dev/programming/DesignPattern/googletest/googletest/src/gtest_main.cc
+ /home/jhalakp/dev/programming/DesignPatterns/googletest/googletest/src/gtest_main.cc

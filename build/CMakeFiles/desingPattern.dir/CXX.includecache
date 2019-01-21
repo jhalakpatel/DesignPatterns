@@ -386,59 +386,67 @@ string
 
 ../include/spdlog/version.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/AbstractFactory.cpp
+/home/jhalakp/dev/programming/DesignPatterns/src/AbstractFactory.cpp
 AbstractFactory.h
-/home/jhalakp/dev/programming/DesignPattern/src/AbstractFactory.h
+/home/jhalakp/dev/programming/DesignPatterns/src/AbstractFactory.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/AbstractFactory.h
+/home/jhalakp/dev/programming/DesignPatterns/src/AbstractFactory.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Command.cpp
+/home/jhalakp/dev/programming/DesignPatterns/src/Adapter.cpp
+Adapter.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Adapter.h
+
+/home/jhalakp/dev/programming/DesignPatterns/src/Adapter.h
+common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
+
+/home/jhalakp/dev/programming/DesignPatterns/src/Command.cpp
 Command.h
-/home/jhalakp/dev/programming/DesignPattern/src/Command.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Command.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Command.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Command.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Decorator.cpp
+/home/jhalakp/dev/programming/DesignPatterns/src/Decorator.cpp
 Decorator.h
-/home/jhalakp/dev/programming/DesignPattern/src/Decorator.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Decorator.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Decorator.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Decorator.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/FactoryMethod.cpp
+/home/jhalakp/dev/programming/DesignPatterns/src/FactoryMethod.cpp
 FactoryMethod.h
-/home/jhalakp/dev/programming/DesignPattern/src/FactoryMethod.h
+/home/jhalakp/dev/programming/DesignPatterns/src/FactoryMethod.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/FactoryMethod.h
+/home/jhalakp/dev/programming/DesignPatterns/src/FactoryMethod.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Observer.cpp
+/home/jhalakp/dev/programming/DesignPatterns/src/Observer.cpp
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 Observer.h
-/home/jhalakp/dev/programming/DesignPattern/src/Observer.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Observer.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Observer.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Observer.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Singleton.cpp
+/home/jhalakp/dev/programming/DesignPatterns/src/Singleton.cpp
 Singleton.h
-/home/jhalakp/dev/programming/DesignPattern/src/Singleton.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Singleton.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Singleton.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Singleton.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Strategy.cpp
+/home/jhalakp/dev/programming/DesignPatterns/src/Strategy.cpp
 Strategy.h
-/home/jhalakp/dev/programming/DesignPattern/src/Strategy.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Strategy.h
 
-/home/jhalakp/dev/programming/DesignPattern/src/Strategy.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Strategy.h
 common.h
-/home/jhalakp/dev/programming/DesignPattern/src/common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
