@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../include/Logger.h
+spdlog/spdlog.h
+../include/spdlog/spdlog.h
+spdlog/sinks/stdout_color_sinks.h
+../include/spdlog/sinks/stdout_color_sinks.h
+
 ../include/common.h
 iostream
 -
@@ -21,10 +27,8 @@ chrono
 -
 thread
 -
-spdlog/spdlog.h
-../include/spdlog/spdlog.h
-spdlog/sinks/stdout_color_sinks.h
-../include/spdlog/sinks/stdout_color_sinks.h
+Logger.h
+../include/Logger.h
 
 ../include/spdlog/common.h
 spdlog/tweakme.h
@@ -406,6 +410,14 @@ Adapter.h
 common.h
 /home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
+/home/jhalakp/dev/programming/DesignPatterns/src/Bridge.cpp
+Bridge.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Bridge.h
+
+/home/jhalakp/dev/programming/DesignPatterns/src/Bridge.h
+common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
+
 /home/jhalakp/dev/programming/DesignPatterns/src/Command.cpp
 Command.h
 /home/jhalakp/dev/programming/DesignPatterns/src/Command.h
@@ -457,6 +469,8 @@ common.h
 /home/jhalakp/dev/programming/DesignPatterns/src/Singleton.cpp
 Singleton.h
 /home/jhalakp/dev/programming/DesignPatterns/src/Singleton.h
+Logger.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Logger.h
 
 /home/jhalakp/dev/programming/DesignPatterns/src/Singleton.h
 common.h

@@ -1,10 +1,8 @@
 #include "Decorator.h"
 
-auto dec_console = spdlog::stdout_color_mt("decorator_console");
-
 void AbstractProduct::description()
 {
-    dec_console->info("AbstractProduct");
+    spdlog::info("AbstractProduct");
 }
 
 ConcreteProductA::ConcreteProductA()
@@ -22,7 +20,7 @@ int ConcreteProductA::cost()
 
 void ConcreteProductA::description()
 {
-    dec_console->info("ConcreteProductA");
+    spdlog::info("ConcreteProductA");
 }
 
 int ConcreteProductB::cost()
@@ -32,7 +30,7 @@ int ConcreteProductB::cost()
 
 void ConcreteProductB::description()
 {
-    dec_console->info("ConcreteProductB");
+    spdlog::info("ConcreteProductB");
 }
 
 ConcreteDecoratorA::ConcreteDecoratorA(AbstractProduct* abstractProduct)
@@ -52,7 +50,7 @@ int ConcreteDecoratorB::cost()
 
 void ConcreteDecoratorB::description()
 {
-    dec_console->info("ConcreteDecoratorB");
+    spdlog::info("ConcreteDecoratorB");
 }
 
 int ConcreteDecoratorA::cost()
@@ -62,5 +60,5 @@ int ConcreteDecoratorA::cost()
 
 void ConcreteDecoratorA::description()
 {
-    dec_console->info("ConcreteDecoratorA");
+    spdlog::info("ConcreteDecoratorA");
 }

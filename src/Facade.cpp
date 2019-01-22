@@ -1,31 +1,29 @@
 #include "Facade.h"
 
-auto facade_console = spdlog::stdout_color_mt("facade_console");
+void Light::on() { spdlog::info("Light on"); }
+void Light::off() { spdlog::info("Light off"); }
 
-void Light::on() { facade_console->info("Light on"); }
-void Light::off() { facade_console->info("Light off"); }
+void Screen::on() { spdlog::info("Screen on"); }
+void Screen::off() { spdlog::info("Screen off"); }
 
-void Screen::on() { facade_console->info("Screen on"); }
-void Screen::off() { facade_console->info("Screen off"); }
-
-void DVD::insert() { facade_console->info("DVD insert"); }
-void DVD::eject() { facade_console->info("DVD eject"); }
+void DVD::insert() { spdlog::info("DVD insert"); }
+void DVD::eject() { spdlog::info("DVD eject"); }
 
 Amp::Amp() {}
 
 void Amp::setDVD(DVD dvd)
 {
-    facade_console->info("Amp setDVD");
+    spdlog::info("Amp setDVD");
     mDVD = dvd;
 }
 void Amp::on()
 {
-    facade_console->info("Amp on");
+    spdlog::info("Amp on");
     mDVD.insert();
 }
 void Amp::off()
 {
-    facade_console->info("Amp off");
+    spdlog::info("Amp off");
     mDVD.eject();
 }
 
@@ -39,7 +37,7 @@ HomeTheatreFacade::HomeTheatreFacade(Light light, Screen screen, DVD dvd, Amp am
 
 void HomeTheatreFacade::watchMovie()
 {
-    facade_console->info("[FACADE] Watch Movie..");
+    spdlog::info("[FACADE] Watch Movie..");
     mScreen.on();
     mLight.off();
     mAmp.setDVD(mDVD);  
@@ -48,7 +46,7 @@ void HomeTheatreFacade::watchMovie()
 
 void HomeTheatreFacade::endMovie()
 {
-    facade_console->info("[FACADE] End Movie..");
+    spdlog::info("[FACADE] End Movie..");
     mAmp.off();
     mScreen.off();
     mLight.on();

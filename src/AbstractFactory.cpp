@@ -1,7 +1,5 @@
 #include "AbstractFactory.h"
 
-auto abf_console = spdlog::stdout_color_mt("abf_console");
-
 OS::OS(const char* os) : mOS(os) { }
 Windows::Windows(const char* os) : OS(os) { } 
 Linux::Linux(const char* os) : OS(os) { } 
@@ -22,34 +20,34 @@ LinuxLibs::LinuxLibs() : Libs() { }
 //! Windows product
 void WinUI::getUIName()
 {
-    abf_console->info("WinUI");
+    spdlog::info("WinUI");
 }
 
 void WinLibs::getLibsVersion()
 {
-    abf_console->info("RS1-14393");
+    spdlog::info("RS1-14393");
 }
 
 //! Linux product
 void LinuxUI::getUIName()
 {
-    abf_console->info("LinuxUI");
+    spdlog::info("LinuxUI");
 }
 
 void LinuxLibs::getLibsVersion()
 {
-    abf_console->info("Linux-18.04");
+    spdlog::info("Linux-18.04");
 }
 
 //! Mac product
 void MacUI::getUIName()
 {
-    abf_console->info("MacUI");
+    spdlog::info("MacUI");
 }
 
 void MacLibs::getLibsVersion()
 {
-    abf_console->info("Mac-Sierra");
+    spdlog::info("Mac-Sierra");
 }
 
 //! Create windows related stuff

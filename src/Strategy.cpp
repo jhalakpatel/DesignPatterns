@@ -1,41 +1,38 @@
 #include "Strategy.h"
 
-//! Create console
-auto stg_console = spdlog::stdout_color_mt("stg_console");
-
 void SimpleQuack::quack(std::string s)
 {
-    stg_console->info("{}: SimpleQuack", s);
+    spdlog::info("{}: SimpleQuack", s);
 }
 
 void NoQuack::quack(std::string s)
 {
-    stg_console->info("{}: NoQuack", s);
+    spdlog::info("{}: NoQuack", s);
 }
 
 void SimpleFly::fly(std::string s)
 {
-    stg_console->info("{}: SimpleFly", s);
+    spdlog::info("{}: SimpleFly", s);
 }
 
 void NoFly::fly(std::string s)
 {
-    stg_console->info("{}: NoFly", s);
+    spdlog::info("{}: NoFly", s);
 }
 
 void JetFly::fly(std::string s)
 {
-    stg_console->info("{}: JetFly", s);
+    spdlog::info("{}: JetFly", s);
 }
 
 void GraphicDisplay::display(std::string s)
 {
-    stg_console->info("{}: GraphicDisplay", s);
+    spdlog::info("{}: GraphicDisplay", s);
 }
 
 void StringDisplay::display(std::string s)
 {
-    stg_console->info("{}: StringDisplay", s);
+    spdlog::info("{}: StringDisplay", s);
 }
 
 void Duck::executeDisplay()

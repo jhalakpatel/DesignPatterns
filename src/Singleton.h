@@ -1,3 +1,6 @@
+#ifndef SINGLETON_H
+#define SINGLETON_H
+
 #include "common.h"
 
 //! Singleton class
@@ -16,3 +19,5 @@ private:
     //! RAII Singleton instance
     static std::unique_ptr<Singleton> gInstance;
 };
+
+#endif // SINGLETON_H

@@ -301,10 +301,8 @@ chrono
 -
 thread
 -
-spdlog/spdlog.h
-../include/spdlog/spdlog.h
-spdlog/sinks/stdout_color_sinks.h
-../include/spdlog/sinks/stdout_color_sinks.h
+Logger.h
+../include/Logger.h
 
 ../include/spdlog/common.h
 spdlog/tweakme.h
@@ -646,6 +644,12 @@ wincon.h
 
 ../include/spdlog/version.h
 
+/home/jhalakp/dev/programming/DesignPatterns/include/Logger.h
+spdlog/spdlog.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/spdlog.h
+spdlog/sinks/stdout_color_sinks.h
+/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/sinks/stdout_color_sinks.h
+
 /home/jhalakp/dev/programming/DesignPatterns/include/common.h
 iostream
 -
@@ -661,10 +665,8 @@ chrono
 -
 thread
 -
-spdlog/spdlog.h
-/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/spdlog.h
-spdlog/sinks/stdout_color_sinks.h
-/home/jhalakp/dev/programming/DesignPatterns/include/spdlog/sinks/stdout_color_sinks.h
+Logger.h
+/home/jhalakp/dev/programming/DesignPatterns/include/Logger.h
 
 /home/jhalakp/dev/programming/DesignPatterns/include/spdlog/sinks/stdout_color_sinks.h
 spdlog/sinks/wincolor_sink.h
@@ -695,6 +697,10 @@ common.h
 /home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
 /home/jhalakp/dev/programming/DesignPatterns/src/Adapter.h
+common.h
+/home/jhalakp/dev/programming/DesignPatterns/src/common.h
+
+/home/jhalakp/dev/programming/DesignPatterns/src/Bridge.h
 common.h
 /home/jhalakp/dev/programming/DesignPatterns/src/common.h
 
@@ -739,6 +745,12 @@ testRunner.h
 /home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
 ../src/Adapter.h
 /home/jhalakp/dev/programming/DesignPatterns/src/Adapter.h
+
+/home/jhalakp/dev/programming/DesignPatterns/tests/testBridge.cpp
+testRunner.h
+/home/jhalakp/dev/programming/DesignPatterns/tests/testRunner.h
+../src/Bridge.h
+/home/jhalakp/dev/programming/DesignPatterns/src/Bridge.h
 
 /home/jhalakp/dev/programming/DesignPatterns/tests/testCommand.cpp
 testRunner.h

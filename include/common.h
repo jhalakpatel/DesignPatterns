@@ -11,7 +11,6 @@
 #include <thread>
 
 //! Logging directory
-#include "spdlog/spdlog.h"
-#include "spdlog/sinks/stdout_color_sinks.h"
+#include "Logger.h"
 
 #endif // SRC_COMMON_H

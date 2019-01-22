@@ -299,6 +299,33 @@ src/Adapter.cpp.s:
 	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Adapter.cpp.s
 .PHONY : src/Adapter.cpp.s
 
+src/Bridge.o: src/Bridge.cpp.o
+
+.PHONY : src/Bridge.o
+
+# target to build an object file
+src/Bridge.cpp.o:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Bridge.cpp.o
+.PHONY : src/Bridge.cpp.o
+
+src/Bridge.i: src/Bridge.cpp.i
+
+.PHONY : src/Bridge.i
+
+# target to preprocess a source file
+src/Bridge.cpp.i:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Bridge.cpp.i
+.PHONY : src/Bridge.cpp.i
+
+src/Bridge.s: src/Bridge.cpp.s
+
+.PHONY : src/Bridge.s
+
+# target to generate assembly for a file
+src/Bridge.cpp.s:
+	$(MAKE) -f CMakeFiles/desingPattern.dir/build.make CMakeFiles/desingPattern.dir/src/Bridge.cpp.s
+.PHONY : src/Bridge.cpp.s
+
 src/Command.o: src/Command.cpp.o
 
 .PHONY : src/Command.o
@@ -569,6 +596,33 @@ tests/testAdapter.cpp.s:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testAdapter.cpp.s
 .PHONY : tests/testAdapter.cpp.s
 
+tests/testBridge.o: tests/testBridge.cpp.o
+
+.PHONY : tests/testBridge.o
+
+# target to build an object file
+tests/testBridge.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testBridge.cpp.o
+.PHONY : tests/testBridge.cpp.o
+
+tests/testBridge.i: tests/testBridge.cpp.i
+
+.PHONY : tests/testBridge.i
+
+# target to preprocess a source file
+tests/testBridge.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testBridge.cpp.i
+.PHONY : tests/testBridge.cpp.i
+
+tests/testBridge.s: tests/testBridge.cpp.s
+
+.PHONY : tests/testBridge.s
+
+# target to generate assembly for a file
+tests/testBridge.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/testBridge.cpp.s
+.PHONY : tests/testBridge.cpp.s
+
 tests/testCommand.o: tests/testCommand.cpp.o
 
 .PHONY : tests/testCommand.o
@@ -837,6 +891,9 @@ help:
 	@echo "... src/Adapter.o"
 	@echo "... src/Adapter.i"
 	@echo "... src/Adapter.s"
+	@echo "... src/Bridge.o"
+	@echo "... src/Bridge.i"
+	@echo "... src/Bridge.s"
 	@echo "... src/Command.o"
 	@echo "... src/Command.i"
 	@echo "... src/Command.s"
@@ -867,6 +924,9 @@ help:
 	@echo "... tests/testAdapter.o"
 	@echo "... tests/testAdapter.i"
 	@echo "... tests/testAdapter.s"
+	@echo "... tests/testBridge.o"
+	@echo "... tests/testBridge.i"
+	@echo "... tests/testBridge.s"
 	@echo "... tests/testCommand.o"
 	@echo "... tests/testCommand.i"
 	@echo "... tests/testCommand.s"
